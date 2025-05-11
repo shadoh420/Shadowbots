@@ -30,7 +30,7 @@ function processMenuVote( %cl, %selection ) {
     }
     else if(%selection == "vsmatch") {
          admin::startvote(%cl, "start the match", "smatch", 0);
-    } // ... (rest of your existing processMenuVote options) ...
+    } 
     else if(%selection == "vChangeMission") {
          %cl.madeVote = true;
          menu::changemissiontype( %cl, 0 );
